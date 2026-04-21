@@ -1,0 +1,40 @@
+body {
+    background-color: #f5f5f5;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.form-check {
+    margin-bottom: 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: yellow !important;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Student Portal</a>
+
+        <div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+
+    <!-- Welcome Message -->
+    <h3 id="welcomeMsg"></h3>
+
+    <!-- Cards -->
+    <div class="row mt-4">
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Profile</h5>
+                <p>View your details</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Courses</h5>
+                <p>Manage your courses</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Feedback</h5>
+                <p>Give your feedback</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Date & Time Button -->
+    <div class="mt-4">
+        <button class="btn btn-success" onclick="showDateTime()">Show Date & Time</button>
+        <p id="dateTime" class="mt-2"></p>
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
